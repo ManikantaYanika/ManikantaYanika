@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="590" viewBox="0 0 260 590">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1220"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="avatarRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card background -->
+  <rect width="260" height="590" rx="12" fill="url(#cardBg)"/>
+  <rect width="260" height="590" rx="12" fill="none" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Avatar -->
+  <circle cx="130" cy="68" r="46" fill="none" stroke="url(#avatarRing)" stroke-width="2"/>
+  <circle cx="130" cy="68" r="42" fill="#161b22"/>
+  <text x="130" y="78" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="600" fill="#06b6d4" text-anchor="middle" letter-spacing="2">MY</text>
+
+  <!-- Online indicator -->
+  <circle cx="163" cy="100" r="7" fill="#0d1117"/>
+  <circle cx="163" cy="100" r="5" fill="#22c55e"/>
+
+  <!-- Name -->
+  <text x="130" y="140" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#f1f5f9" text-anchor="middle">Manikanta Yanika</text>
+
+  <!-- Username -->
+  <text x="130" y="160" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">@ManikantaYanika</text>
+
+  <!-- Role badges -->
+  <rect x="50" y="175" width="160" height="24" rx="12" fill="#06b6d4" fill-opacity="0.1" stroke="#06b6d4" stroke-opacity="0.25" stroke-width="0.5"/>
+  <text x="130" y="191" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#06b6d4" text-anchor="middle" letter-spacing="0.5">AI Product Builder</text>
+
+  <rect x="45" y="205" width="170" height="24" rx="12" fill="#8b5cf6" fill-opacity="0.1" stroke="#8b5cf6" stroke-opacity="0.25" stroke-width="0.5"/>
+  <text x="130" y="221" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8b5cf6" text-anchor="middle" letter-spacing="0.5">Full-Stack Developer</text>
+
+  <!-- Bio -->
+  <text x="130" y="252" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5" fill="#94a3b8" text-anchor="middle">Building real-world AI apps,</text>
+  <text x="130" y="268" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5" fill="#94a3b8" text-anchor="middle">intelligent automation &amp;</text>
+  <text x="130" y="284" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5" fill="#94a3b8" text-anchor="middle">scalable business platforms.</text>
+
+  <!-- Status pill -->
+  <rect x="38" y="300" width="184" height="26" rx="13" fill="#22c55e" fill-opacity="0.08" stroke="#22c55e" stroke-opacity="0.2" stroke-width="0.5"/>
+  <circle cx="58" cy="313" r="3.5" fill="#22c55e"/>
+  <text x="70" y="317" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#86efac">Available for collaboration</text>
+
+  <!-- Divider -->
+  <line x1="24" y1="342" x2="236" y2="342" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Contact info -->
+  <circle cx="36" cy="367" r="3" fill="#06b6d4" opacity="0.6"/>
+  <text x="48" y="371" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8">Bangalore, India</text>
+
+  <circle cx="36" cy="395" r="3" fill="#8b5cf6" opacity="0.6"/>
+  <text x="48" y="399" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8">Revify Private Limited</text>
+
+  <circle cx="36" cy="423" r="3" fill="#3b82f6" opacity="0.6"/>
+  <text x="48" y="427" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#7dd3fc">revifyearth.com</text>
+
+  <!-- Divider -->
+  <line x1="24" y1="448" x2="236" y2="448" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Interests label -->
+  <text x="24" y="474" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#64748b" letter-spacing="1.5">INTERESTS</text>
+
+  <!-- Interest pills row 1 -->
+  <rect x="24" y="488" width="62" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="55" y="503" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">AI / LLM</text>
+
+  <rect x="94" y="488" width="55" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="121" y="503" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">React</text>
+
+  <rect x="157" y="488" width="78" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="196" y="503" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">TypeScript</text>
+
+  <!-- Interest pills row 2 -->
+  <rect x="24" y="516" width="46" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="47" y="531" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">ESG</text>
+
+  <rect x="78" y="516" width="48" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="102" y="531" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">RAG</text>
+
+  <rect x="134" y="516" width="86" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="177" y="531" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Automation</text>
+
+  <!-- Interest pills row 3 -->
+  <rect x="24" y="544" width="58" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="53" y="559" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Python</text>
+
+  <rect x="90" y="544" width="66" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="123" y="559" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Node.js</text>
+
+  <rect x="164" y="544" width="70" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="199" y="559" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Tailwind</text>
+</svg>

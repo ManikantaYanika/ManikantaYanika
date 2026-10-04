@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="590" viewBox="0 0 260 590">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1220"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ====== CARD 1: Currently Working On ====== -->
+  <rect x="0" y="0" width="260" height="200" rx="12" fill="url(#cardBg)"/>
+  <rect x="0" y="0" width="260" height="200" rx="12" fill="none" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Header -->
+  <circle cx="22" cy="28" r="4" fill="#22c55e" opacity="0.8"/>
+  <text x="34" y="33" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#f1f5f9">Currently Working On</text>
+
+  <line x1="16" y1="48" x2="244" y2="48" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Items -->
+  <rect x="16" y="60" width="228" height="22" rx="6" fill="#06b6d4" fill-opacity="0.06"/>
+  <circle cx="30" cy="71" r="2.5" fill="#06b6d4"/>
+  <text x="42" y="75" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8">AI Product Development</text>
+
+  <rect x="16" y="88" width="228" height="22" rx="6" fill="#22c55e" fill-opacity="0.06"/>
+  <circle cx="30" cy="99" r="2.5" fill="#22c55e"/>
+  <text x="42" y="103" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8">RevifyEarth Platform</text>
+
+  <rect x="16" y="116" width="228" height="22" rx="6" fill="#8b5cf6" fill-opacity="0.06"/>
+  <circle cx="30" cy="127" r="2.5" fill="#8b5cf6"/>
+  <text x="42" y="131" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8">Workflow Automation</text>
+
+  <rect x="16" y="144" width="228" height="22" rx="6" fill="#fbbf24" fill-opacity="0.06"/>
+  <circle cx="30" cy="155" r="2.5" fill="#fbbf24"/>
+  <text x="42" y="159" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8">LLM / RAG Applications</text>
+
+  <rect x="16" y="172" width="228" height="22" rx="6" fill="#f472b6" fill-opacity="0.06"/>
+  <circle cx="30" cy="183" r="2.5" fill="#f472b6"/>
+  <text x="42" y="187" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8">ESG Reporting Tools</text>
+
+  <!-- ====== CARD 2: Open To ====== -->
+  <rect x="0" y="214" width="260" height="168" rx="12" fill="url(#cardBg)"/>
+  <rect x="0" y="214" width="260" height="168" rx="12" fill="none" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Header -->
+  <circle cx="22" cy="242" r="4" fill="#3b82f6" opacity="0.8"/>
+  <text x="34" y="247" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#f1f5f9">Open To</text>
+
+  <line x1="16" y1="262" x2="244" y2="262" stroke="#1e293b" stroke-width="1"/>
+
+  <circle cx="30" cy="285" r="3" fill="#22c55e" opacity="0.7"/>
+  <text x="42" y="289" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8">Collaboration</text>
+
+  <circle cx="30" cy="311" r="3" fill="#22c55e" opacity="0.7"/>
+  <text x="42" y="315" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8">AI / Product Projects</text>
+
+  <circle cx="30" cy="337" r="3" fill="#22c55e" opacity="0.7"/>
+  <text x="42" y="341" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8">Open Source Contributions</text>
+
+  <circle cx="30" cy="363" r="3" fill="#22c55e" opacity="0.7"/>
+  <text x="42" y="367" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8">Consulting &amp; Freelance</text>
+
+  <!-- ====== CARD 3: Philosophy ====== -->
+  <rect x="0" y="396" width="260" height="192" rx="12" fill="url(#cardBg)"/>
+  <rect x="0" y="396" width="260" height="192" rx="12" fill="none" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Header -->
+  <circle cx="22" cy="424" r="4" fill="#8b5cf6" opacity="0.8"/>
+  <text x="34" y="429" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#f1f5f9">Dev Philosophy</text>
+
+  <line x1="16" y1="444" x2="244" y2="444" stroke="#1e293b" stroke-width="1"/>
+
+  <text x="26" y="468" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5" fill="#64748b">&#8594;</text>
+  <text x="42" y="468" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5" fill="#94a3b8">Build real products</text>
+
+  <text x="26" y="490" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5" fill="#64748b">&#8594;</text>
+  <text x="42" y="490" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5" fill="#94a3b8">Solve real problems</text>
+
+  <text x="26" y="512" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5" fill="#64748b">&#8594;</text>
+  <text x="42" y="512" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5" fill="#94a3b8">Keep systems maintainable</text>
+
+  <text x="26" y="534" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5" fill="#64748b">&#8594;</text>
+  <text x="42" y="534" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5" fill="#94a3b8">Automate the repetitive</text>
+
+  <text x="26" y="556" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5" fill="#64748b">&#8594;</text>
+  <text x="42" y="556" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5" fill="#94a3b8">Learn by shipping</text>
+
+  <text x="26" y="578" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5" fill="#64748b">&#8594;</text>
+  <text x="42" y="578" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5" fill="#94a3b8">Use AI responsibly</text>
+</svg>

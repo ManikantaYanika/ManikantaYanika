@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1220"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="roleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="screenGlow" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card background -->
+  <rect width="900" height="320" rx="12" fill="url(#cardBg)"/>
+  <rect width="900" height="320" rx="12" fill="none" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.025">
+    <line x1="0" y1="64" x2="900" y2="64" stroke="#06b6d4" stroke-width="0.5"/>
+    <line x1="0" y1="128" x2="900" y2="128" stroke="#06b6d4" stroke-width="0.5"/>
+    <line x1="0" y1="192" x2="900" y2="192" stroke="#06b6d4" stroke-width="0.5"/>
+    <line x1="0" y1="256" x2="900" y2="256" stroke="#06b6d4" stroke-width="0.5"/>
+    <line x1="180" y1="0" x2="180" y2="320" stroke="#06b6d4" stroke-width="0.5"/>
+    <line x1="360" y1="0" x2="360" y2="320" stroke="#06b6d4" stroke-width="0.5"/>
+    <line x1="540" y1="0" x2="540" y2="320" stroke="#06b6d4" stroke-width="0.5"/>
+    <line x1="720" y1="0" x2="720" y2="320" stroke="#06b6d4" stroke-width="0.5"/>
+  </g>
+
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="900" height="2" rx="1" fill="url(#accentLine)" opacity="0.5"/>
+
+  <!-- Ambient glow spots -->
+  <circle cx="120" cy="80" r="120" fill="#06b6d4" opacity="0.02"/>
+  <circle cx="700" cy="160" r="180" fill="#8b5cf6" opacity="0.02"/>
+
+  <!-- ====== LEFT SIDE: TEXT CONTENT ====== -->
+
+  <!-- Greeting -->
+  <text x="44" y="52" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#06b6d4" letter-spacing="1.5" opacity="0.9">HI THERE, I'M</text>
+
+  <!-- Name large -->
+  <text x="44" y="102" font-family="'Segoe UI', Arial, sans-serif" font-size="50" font-weight="700" fill="#f1f5f9" letter-spacing="-0.5">Manikanta</text>
+  <text x="44" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="50" font-weight="700" fill="#f1f5f9" letter-spacing="-0.5">Yanika</text>
+
+  <!-- Role -->
+  <text x="44" y="182" font-family="'Segoe UI', Arial, sans-serif" font-size="15" fill="url(#roleGrad)" letter-spacing="0.5">AI Product Builder  |  Full-Stack Developer</text>
+
+  <!-- Description -->
+  <text x="44" y="212" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#94a3b8">Building real-world AI applications, intelligent workflow</text>
+  <text x="44" y="228" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#94a3b8">automation, and scalable business platforms.</text>
+
+  <!-- Status pills -->
+  <rect x="44" y="245" width="62" height="22" rx="11" fill="#06b6d4" fill-opacity="0.12" stroke="#06b6d4" stroke-opacity="0.25" stroke-width="0.5"/>
+  <text x="75" y="260" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#06b6d4" text-anchor="middle">AI / LLM</text>
+
+  <rect x="114" y="245" width="75" height="22" rx="11" fill="#8b5cf6" fill-opacity="0.12" stroke="#8b5cf6" stroke-opacity="0.25" stroke-width="0.5"/>
+  <text x="151" y="260" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8b5cf6" text-anchor="middle">Full-Stack</text>
+
+  <rect x="197" y="245" width="80" height="22" rx="11" fill="#3b82f6" fill-opacity="0.12" stroke="#3b82f6" stroke-opacity="0.25" stroke-width="0.5"/>
+  <text x="237" y="260" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#3b82f6" text-anchor="middle">TypeScript</text>
+
+  <rect x="285" y="245" width="52" height="22" rx="11" fill="#22c55e" fill-opacity="0.12" stroke="#22c55e" stroke-opacity="0.25" stroke-width="0.5"/>
+  <text x="311" y="260" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#22c55e" text-anchor="middle">ESG</text>
+
+  <rect x="345" y="245" width="55" height="22" rx="11" fill="#f59e0b" fill-opacity="0.12" stroke="#f59e0b" stroke-opacity="0.25" stroke-width="0.5"/>
+  <text x="372" y="260" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#f59e0b" text-anchor="middle">RAG</text>
+
+  <!-- CTA buttons -->
+  <rect x="44" y="280" width="125" height="28" rx="6" fill="#06b6d4"/>
+  <text x="106" y="299" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#0d1117" text-anchor="middle" font-weight="600">View Projects</text>
+
+  <rect x="178" y="280" width="125" height="28" rx="6" fill="none" stroke="#30363d" stroke-width="1"/>
+  <text x="240" y="299" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Visit Website</text>
+
+  <!-- ====== RIGHT SIDE: WORKSPACE ILLUSTRATION ====== -->
+
+  <!-- Screen glow -->
+  <ellipse cx="690" cy="140" rx="200" ry="120" fill="url(#screenGlow)"/>
+
+  <!-- Laptop screen -->
+  <rect x="520" y="52" width="340" height="210" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Screen inner -->
+  <rect x="530" y="62" width="320" height="190" rx="6" fill="#0d1117"/>
+
+  <!-- Title bar -->
+  <rect x="530" y="62" width="320" height="24" rx="6" fill="#161b22"/>
+  <rect x="530" y="80" width="320" height="6" fill="#161b22"/>
+  <!-- Traffic lights -->
+  <circle cx="546" cy="74" r="4" fill="#ff5f57"/>
+  <circle cx="560" cy="74" r="4" fill="#febc2e"/>
+  <circle cx="574" cy="74" r="4" fill="#28c840"/>
+  <!-- Tab -->
+  <rect x="600" y="66" width="90" height="16" rx="4" fill="#0d1117"/>
+  <text x="645" y="78" font-family="monospace, 'Courier New'" font-size="8" fill="#64748b" text-anchor="middle">product.ts</text>
+
+  <!-- Line numbers gutter -->
+  <rect x="530" y="86" width="26" height="166" fill="#0d1117"/>
+  <g font-family="monospace, 'Courier New'" font-size="9" fill="#3b4252">
+    <text x="548" y="104" text-anchor="end">1</text>
+    <text x="548" y="118" text-anchor="end">2</text>
+    <text x="548" y="132" text-anchor="end">3</text>
+    <text x="548" y="146" text-anchor="end">4</text>
+    <text x="548" y="160" text-anchor="end">5</text>
+    <text x="548" y="174" text-anchor="end">6</text>
+    <text x="548" y="188" text-anchor="end">7</text>
+    <text x="548" y="202" text-anchor="end">8</text>
+    <text x="548" y="216" text-anchor="end">9</text>
+    <text x="545" y="230" text-anchor="end">10</text>
+    <text x="545" y="244" text-anchor="end">11</text>
+  </g>
+
+  <!-- Code content -->
+  <g font-family="monospace, 'Courier New'" font-size="9.5">
+    <!-- Line 1: import -->
+    <text x="560" y="104" fill="#c084fc">import</text><text x="598" y="104" fill="#e2e8f0"> { </text><text x="616" y="104" fill="#7dd3fc">AI</text><text x="628" y="104" fill="#e2e8f0">, </text><text x="636" y="104" fill="#7dd3fc">deploy</text><text x="672" y="104" fill="#e2e8f0"> } </text><text x="688" y="104" fill="#c084fc">from</text><text x="716" y="104" fill="#a5d6a7">'@core'</text>
+    <!-- Line 2: import -->
+    <text x="560" y="118" fill="#c084fc">import</text><text x="598" y="118" fill="#e2e8f0"> { </text><text x="616" y="118" fill="#7dd3fc">Stack</text><text x="645" y="118" fill="#e2e8f0"> } </text><text x="661" y="118" fill="#c084fc">from</text><text x="689" y="118" fill="#a5d6a7">'./engine'</text>
+    <!-- Line 3: blank -->
+    <!-- Line 4: const -->
+    <text x="560" y="146" fill="#c084fc">const</text><text x="592" y="146" fill="#7dd3fc"> product</text><text x="642" y="146" fill="#e2e8f0"> = </text><text x="660" y="146" fill="#c084fc">await</text><text x="692" y="146" fill="#fbbf24"> AI</text><text x="708" y="146" fill="#e2e8f0">.build({</text>
+    <!-- Line 5: name -->
+    <text x="578" y="160" fill="#7dd3fc">name</text><text x="606" y="160" fill="#e2e8f0">: </text><text x="618" y="160" fill="#a5d6a7">'RevifyEarth'</text><text x="700" y="160" fill="#e2e8f0">,</text>
+    <!-- Line 6: stack -->
+    <text x="578" y="174" fill="#7dd3fc">stack</text><text x="610" y="174" fill="#e2e8f0">: [</text><text x="628" y="174" fill="#a5d6a7">'TS'</text><text x="650" y="174" fill="#e2e8f0">, </text><text x="660" y="174" fill="#a5d6a7">'React'</text><text x="698" y="174" fill="#e2e8f0">, </text><text x="708" y="174" fill="#a5d6a7">'AI'</text><text x="726" y="174" fill="#e2e8f0">],</text>
+    <!-- Line 7: type -->
+    <text x="578" y="188" fill="#7dd3fc">type</text><text x="606" y="188" fill="#e2e8f0">: </text><text x="618" y="188" fill="#a5d6a7">'production'</text><text x="700" y="188" fill="#e2e8f0">,</text>
+    <!-- Line 8: deploy -->
+    <text x="578" y="202" fill="#7dd3fc">deploy</text><text x="614" y="202" fill="#e2e8f0">: </text><text x="626" y="202" fill="#fbbf24">true</text>
+    <!-- Line 9: close -->
+    <text x="560" y="216" fill="#e2e8f0">})</text>
+    <!-- Line 10: blank -->
+    <!-- Line 11: export -->
+    <text x="560" y="244" fill="#c084fc">export default</text><text x="650" y="244" fill="#7dd3fc"> product</text>
+  </g>
+
+  <!-- Cursor blink -->
+  <rect x="700" y="234" width="1.5" height="14" fill="#06b6d4" opacity="0.8"/>
+
+  <!-- Laptop base -->
+  <path d="M 505 262 L 520 262 Q 520 266 524 266 L 856 266 Q 860 266 860 262 L 875 262 L 868 278 Q 866 282 862 282 L 518 282 Q 514 282 512 278 Z" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <!-- Trackpad hint -->
+  <rect x="660" y="268" width="60" height="8" rx="3" fill="#0d1117" stroke="#30363d" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- Floating elements -->
+  <text x="488" y="45" font-family="monospace" font-size="20" fill="#06b6d4" opacity="0.15">&lt;/&gt;</text>
+  <text x="870" y="42" font-family="monospace" font-size="22" fill="#8b5cf6" opacity="0.12">{</text>
+  <text x="498" y="295" font-family="monospace" font-size="16" fill="#8b5cf6" opacity="0.12">}</text>
+  <text x="872" y="305" font-family="monospace" font-size="14" fill="#06b6d4" opacity="0.1">fn()</text>
+
+  <!-- Floating particles -->
+  <circle cx="500" cy="50" r="2.5" fill="#06b6d4" opacity="0.25"/>
+  <circle cx="880" cy="65" r="2" fill="#8b5cf6" opacity="0.2"/>
+  <circle cx="895" cy="180" r="1.5" fill="#06b6d4" opacity="0.15"/>
+  <circle cx="490" cy="180" r="2" fill="#22c55e" opacity="0.15"/>
+  <circle cx="510" cy="120" r="1.5" fill="#fbbf24" opacity="0.12"/>
+  <circle cx="870" cy="290" r="2" fill="#8b5cf6" opacity="0.1"/>
+  <circle cx="510" cy="240" r="1" fill="#06b6d4" opacity="0.2"/>
+
+  <!-- Corner brackets -->
+  <g stroke="#1e293b" stroke-width="1" fill="none" opacity="0.4">
+    <polyline points="20,25 20,12 33,12"/>
+    <polyline points="880,25 880,12 867,12"/>
+    <polyline points="20,295 20,308 33,308"/>
+    <polyline points="880,295 880,308 867,308"/>
+  </g>
+</svg>
